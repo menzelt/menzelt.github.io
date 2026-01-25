@@ -1,0 +1,38 @@
+[
+    {
+        "slug": "blendshapes",
+        "title": "Automated Blendshape Personalization for Faithful Face Animations Using Commodity Smartphones",
+        "short_title": "Automated Blendshape Personalization",
+        "authors": "Timo Menzel, Mario Botsch, Marc Erich Latoschik",
+        "venue": "ACM Symposium on Virtual Reality Software and Technology",
+        "year": 2022,
+        "url": "https://doi.org/10.1145/3562939.3565622",
+        "project_page": "",
+        "description": "This project presents a method for automatically personalizing blendshape models for facial animation using ARKit face masks captured with an iPhone. The approach leverages computer vision techniques to extract facial features and optimize blendshape weights, resulting in more accurate and expressive facial animations in virtual reality applications.",
+        "short_description": "Improving facial animation fidelity through facial blendshape personalization using smartphone-captured data."
+    },
+    {
+        "slug": "avatars",
+        "title": "Avatars for the Masses: Smartphone-Based Reconstruction of Humans for Virtual Reality",
+        "short_title": "Avatars for the Masses",
+        "authors": "Timo Menzel, Erik Wolf, Stephan Wenninger, Niklas Spinczyk, Lena Holderrieth, Carolin Wienrich, Ulrich Schwanecke, Marc Erich Latoschik, Mario Botsch",
+        "venue": "Frontiers in Virtual Reality Volume 6",
+        "year": 2025,
+        "url": "https://doi.org/10.3389/frvir.2025.1583474",
+        "project_page": "https://avatars.cs.tu-dortmund.de/",
+        "description": "During my PhD, I developed <strong>Avatars for the Masses (A4M)</strong> — a full-body avatar reconstruction system that uses smartphones to capture realistic, VR-ready avatars. The system consists of a mobile application that visually guides users through the scanning process and a complementary compute server that automatically reconstructs personalized avatars. The design ensures that even inexperienced users can capture scans of sufficient quality in uncontrolled, in-the-wild scenarios. Using a combination of <strong>segmentation, landmark detection, photogrammetry, and template fitting</strong>, the server generates a high-quality avatar in approximately 20 minutes. The system has been extensively evaluated, demonstrating results on par with expert-operated setups.",
+        "short_description": "End-to-end smartphone-based system for full-body avatar reconstruction for VR."
+    },
+    {
+        "slug": "motions",
+        "title": "Compensating Motion-Induced Errors in Smartphone-Based VR Avatar Reconstruction",
+        "short_title": "Compensating Motion-Induced Errors",
+        "authors": "Friedemann Runte, Timo Menzel, Ulrich Schwanecke, Mario Botsch",
+        "venue": "ACM Symposium on Virtual Reality Software and Technology",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3756884.3765995",
+        "project_page": "",
+        "description": "This project focuses on improving the accuracy of VR avatar reconstructions using smartphones by compensating for motion-induced errors during the scanning process.",
+        "short_description": "Improving VR avatar reconstruction accuracy by compensating for motion-induced errors."
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Automated Blendshape Personalization for Faithful Face Animations Using Commodity Smartphones",
+        "authors": "Timo Menzel, Mario Botsch, Marc Erich Latoschik",
+        "venue": "ACM Symposium on Virtual Reality Software and Technology",
+        "year": 2022,
+        "url": "https://doi.org/10.1145/3562939.3565622",
+        "project_page": ""
+    },
+    {
+        "title": "An Evaluation of Other-Avatar Facial Animation Methods for Social VR",
+        "authors": "Peter Kullmann, Timo Menzel, Mario Botsch, Marc Erich Latoschik",
+        "venue": "ACM CHI Conference on Human Factors in Computing Systems (Extended Abstracts)",
+        "year": 2023,
+        "url": "https://doi.org/10.1145/3544549.3585617",
+        "project_page": ""
+    },
+    {
+        "title": "Coverage of Facial Expressions and Its Effects on Avatar Embodiment, Self-Identification, and Uncanniness",
+        "authors": "Peter Kullmann, Theresa Schell, Timo Menzel, Mario Botsch, Marc Erich Latoschik",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics 31(5), (Proc. VR)",
+        "year": 2025,
+        "url": "https://doi.org/10.1109/TVCG.2025.3549887",
+        "project_page": ""
+    },
+    {
+        "title": "Avatars for the Masses: Smartphone-Based Reconstruction of Humans for Virtual Reality",
+        "authors": "Timo Menzel, Erik Wolf, Stephan Wenninger, Niklas Spinczyk, Lena Holderrieth, Carolin Wienrich, Ulrich Schwanecke, Marc Erich Latoschik, Mario Botsch",
+        "venue": "Frontiers in Virtual Reality Volume 6",
+        "year": 2025,
+        "url": "https://doi.org/10.3389/frvir.2025.1583474",
+        "project_page": "https://avatars.cs.tu-dortmund.de/"
+    },
+    {
+        "title": "Compensating Motion-Induced Errors in Smartphone-Based VR Avatar Reconstruction",
+        "authors": "Friedemann Runte, Timo Menzel, Ulrich Schwanecke, Mario Botsch",
+        "venue": "ACM Symposium on Virtual Reality Software and Technology",
+        "year": 2025,
+        "url": "https://doi.org/10.1145/3756884.3765995",
+        "project_page": ""
+    }
+]
