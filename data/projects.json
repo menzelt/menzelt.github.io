@@ -8,8 +8,8 @@
         "year": 2022,
         "url": "https://doi.org/10.1145/3562939.3565622",
         "project_page": "",
-        "description": "This project presents a method for automatically personalizing blendshape models for facial animation using ARKit face masks captured with an iPhone. The approach leverages computer vision techniques to extract facial features and optimize blendshape weights, resulting in more accurate and expressive facial animations in virtual reality applications.",
-        "short_description": "Improving facial animation fidelity through facial blendshape personalization using smartphone-captured data."
+        "description": "Facial blendshapes are widely used in real-time applications for facial animation. They offer a straightforward way to animate faces of virtual characters by linearly combining a set of predefined example expressions. However, most characters models come with a generic set of blendshapes, that do not accurately represent the character's unique facial features, resulting in less convincing animations. <br> In this project, we present an automated pipeline to personalized facial blendshapes of a realistic character using smartphone input. We leverage Apple's ARKit framework to capture 52 example facial expressions corresponding to the ARKit blendshape set. With a position-based example-based facial rigging approach we then automatically generate personalized blendshapes that better represent the character's unique facial features, compared to the generic blendshapes and the popular original example-based facial rigging approach.",
+        "short_description": "Improving facial expressions through automated blendshape personalization with smartphone input."
     },
     {
         "slug": "avatars",
@@ -32,7 +32,7 @@
         "year": 2025,
         "url": "https://doi.org/10.1145/3756884.3765995",
         "project_page": "",
-        "description": "This project focuses on improving the accuracy of VR avatar reconstructions using smartphones by compensating for motion-induced errors during the scanning process.",
-        "short_description": "Improving VR avatar reconstruction accuracy by compensating for motion-induced errors."
+        "description": "We refine our initial avatar reconstruction system (<a href=\"../projects/project.html?slug=avatars\">Avatars for the Masses</a>) by addressing motion-induced errors during the scanning process. We observed that even a short two minute smartphone scan, results in significant motion artifacts. As we scan in A-pose, the photogrammetry assumption (i.e., an object is static during image capture) is often violated, as the arms tend to move. Through splitting the image sequence into multiple sub-sequences, called <em>sub-scans</em>, we can reduce these motion artifacts on a photogrammetric level. With these sub-scans, additional silhouette constraints, and a novel texture generation, we improve the reconstruction accuracy noticeably, even in more challenging scanning scenarios.",
+        "short_description": "Motion during scanning causes photogrammetry software to produce artifacts. This project reduces these errors while keeping the scanning process user-friendly."
     }
 ]

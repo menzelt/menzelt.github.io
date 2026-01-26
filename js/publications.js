@@ -33,4 +33,6 @@ fetch('../data/publications.json')
 
           container.appendChild(card);
       });
+      document.dispatchEvent(new Event("dynamicContentReady"));
   });
+

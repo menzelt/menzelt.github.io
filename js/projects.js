@@ -19,5 +19,6 @@ fetch('../data/projects.json')
 
       grid.appendChild(card);
     });
+    document.dispatchEvent(new Event("dynamicContentReady"));
   })
   .catch(err => console.error('Error loading projects.json:', err));
