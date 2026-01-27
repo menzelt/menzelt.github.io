@@ -11,9 +11,9 @@ fetch('../data/personal.json')
             </div>
                 <div class="hero-right">
                     <h1>${data.name}</h1>
-                <p class="subtitle">${data.role} | ${data.topics}</p>
+                <p class="subtitle">${data.topics}</p>
                 <p class="hero-institution">
-                    ${data.role} at ${data.company}, expected to graduate ${data.graduation}.
+                    ${data.job} at ${data.company}, expected to graduate ${data.graduation}.
                 </p>
                 <p class="description">
                     ${data.description}

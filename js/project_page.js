@@ -32,7 +32,8 @@ fetch('../data/projects.json')
         const project_right = document.createElement('div');
         project_right.className = 'project-right';
         project_right.innerHTML = `
-        <img src="../assets/${project.image ? project.image : 'dummy.svg'}" alt="Example image" class="project-image">
+        <img src="../assets/${project.image ? `projects/${slug}/${project.image}` : 'dummy.svg'}" alt="Example image" class="project-image">
+        <p class="image-caption">${project.image_caption ? project.image_caption : ''}</p>
         `;
 
         project_container.appendChild(project_left);

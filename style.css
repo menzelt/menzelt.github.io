@@ -2,7 +2,7 @@
 Global Settings
 ======================== */
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 /* ========================
@@ -107,8 +107,10 @@ Navigation Bar
 .nav-logo a {
     text-decoration: none;
     color: var(--text-main);
-    font-size: inherit;     /* ensure it matches the parent */
-    font-weight: inherit;   /* ensure it matches the parent */
+    font-size: inherit;
+    /* ensure it matches the parent */
+    font-weight: inherit;
+    /* ensure it matches the parent */
     line-height: 1;
 }
 
@@ -175,11 +177,15 @@ Hero Section
 }
 
 .hero-institution {
-    font-size: 0.95rem;        /* slightly smaller than subtitle */
-    font-weight: 500;          /* medium weight */
+    font-size: 0.95rem;
+    /* slightly smaller than subtitle */
+    font-weight: 500;
+    /* medium weight */
     /* color: var(--text-muted);  muted color for secondary info */
-    margin-bottom: 8px;        /* spacing below it before topics or description */
-    line-height: 1.4;          /* comfortable line spacing */
+    margin-bottom: 8px;
+    /* spacing below it before topics or description */
+    line-height: 1.4;
+    /* comfortable line spacing */
 }
 
 .topics {
@@ -302,13 +308,20 @@ Project Subpages
 }
 
 .project-right {
-    flex: 0 0 300px;
+    flex: 0 0 400px;
 }
 
 .project-right .project-image {
     width: 100%;
-    border-radius: 14px;
+    border-radius: 10px;
     box-shadow: var(--shadow-soft);
+}
+
+.project-right .image-caption {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    text-align: center;
 }
 
 /* Responsive (project page) */
@@ -391,6 +404,8 @@ Footer
     text-align: center;
     padding: 40px 20px;
     color: var(--text-muted);
+    background-color: var(--bg-alt);
+    border-top: 1px solid var(--border-light);
     font-size: 0.9rem;
 
     a {
@@ -429,17 +444,103 @@ Footer
     }
 
     #legal-links-container {
-    text-align: center;      /* Center inline content horizontally */
-    margin: 1rem 0;          /* Optional spacing above/below */
-    font-size: 0.9rem;       /* Optional smaller font for footer links */
+        text-align: center;
+        /* Center inline content horizontally */
+        margin: 1rem 0;
+        /* Optional spacing above/below */
+        font-size: 0.9rem;
+        /* Optional smaller font for footer links */
     }
 
     #legal-links-container a {
-        text-decoration: none;   /* Optional: remove underline */
-        color: inherit;          /* Keep the same color as surrounding text */
-        margin: 0 0.25rem;       /* Optional spacing between links and · */
+        text-decoration: none;
+        /* Optional: remove underline */
+        color: inherit;
+        /* Keep the same color as surrounding text */
+        margin: 0 0.25rem;
+        /* Optional spacing between links and · */
     }
 
+}
+
+/* ========================
+Privacy & Imprint Pages
+======================== */
+.content-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+
+    .content-left {
+        flex: 0.5;
+        padding-right: 2rem;
+        border-right: 1px solid var(--text-muted);
+    }
+
+    .content-right {
+        flex: 0.6;
+    }
+
+
+    /* Überschriften */
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        color: #222;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        color: #333;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+
+    /* Absätze */
+    p {
+        margin-bottom: 1rem;
+    }
+
+    /* Listen */
+    ul,
+    ol {
+        margin: 0 0 1rem 2rem;
+        /* Abstand unten + Einzug */
+        padding-left: 1rem;
+    }
+
+    li {
+        margin-bottom: 0.5rem;
+        /* Abstand zwischen Listenelementen */
+    }
+
+    /* Links */
+    a {
+        color: #1a0dab;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    /* Optional: Abschnittshervorhebung */
+    .section {
+        padding: 1rem;
+        border-left: 3px solid #007ACC;
+        margin-bottom: 1.5rem;
+    }
 }
 
 /* ========================

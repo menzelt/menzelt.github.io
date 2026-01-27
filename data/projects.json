@@ -8,8 +8,10 @@
         "year": 2022,
         "url": "https://doi.org/10.1145/3562939.3565622",
         "project_page": "",
-        "description": "Facial blendshapes are widely used in real-time applications for facial animation. They offer a straightforward way to animate faces of virtual characters by linearly combining a set of predefined example expressions. However, most characters models come with a generic set of blendshapes, that do not accurately represent the character's unique facial features, resulting in less convincing animations. <br> In this project, we present an automated pipeline to personalized facial blendshapes of a realistic character using smartphone input. We leverage Apple's ARKit framework to capture 52 example facial expressions corresponding to the ARKit blendshape set. With a position-based example-based facial rigging approach we then automatically generate personalized blendshapes that better represent the character's unique facial features, compared to the generic blendshapes and the popular original example-based facial rigging approach.",
-        "short_description": "Improving facial expressions through automated blendshape personalization with smartphone input."
+        "image": "teaser.webp",
+        "image_caption": "Personalized ARKit blendshape mask (left) and full-body avatar with the same expression (right). Lip outlines highlight the accuracy of the transferred personalized blendshapes on the full-body character.",
+        "description": "Facial blendshapes are a standard representation for real-time facial animation in games, VR, and digital humans. In practice, however, most character models rely on generic blendshape rigs that fail to capture individual facial characteristics, leading to less convicing animations. <br> In this project, we present an automated pipeline for generating personalized facial blendshapes from smartphone-captured expressions. Using Apple's ARKit to acquire a set of example facial expressions, we first generate personalized blendshape masks through position-based optimization, and then implant them into realistic full-body characters using seamless partial deformation transfer. The resulting personalized blendshapes significantly improve facial fidelity compared to generic rigs and traditional example-based facial rigging, while requiring only commodity hardware and minimal manual effort.",
+        "short_description": "A fully automated pipeline for generating high-fidelity, personalized facial blendshapes from smartphone data."
     },
     {
         "slug": "avatars",
@@ -20,8 +22,10 @@
         "year": 2025,
         "url": "https://doi.org/10.3389/frvir.2025.1583474",
         "project_page": "https://avatars.cs.tu-dortmund.de/",
-        "description": "During my PhD, I developed <strong>Avatars for the Masses (A4M)</strong> — a full-body avatar reconstruction system that uses smartphones to capture realistic, VR-ready avatars. The system consists of a mobile application that visually guides users through the scanning process and a complementary compute server that automatically reconstructs personalized avatars. The design ensures that even inexperienced users can capture scans of sufficient quality in uncontrolled, in-the-wild scenarios. Using a combination of <strong>segmentation, landmark detection, photogrammetry, and template fitting</strong>, the server generates a high-quality avatar in approximately 20 minutes. The system has been extensively evaluated, demonstrating results on par with expert-operated setups.",
-        "short_description": "End-to-end smartphone-based system for full-body avatar reconstruction for VR."
+        "image": "teaser.webp",
+        "image_caption": "Avatars for the Masses (A4M) enables non-expert users to create realistic avatars using just their smartphone.",
+        "description": "<strong>Avatars for the Masses (A4M)</strong> is an end-to-end system for reconstructing realistic, VR-ready full-body avatars using commodity smartphones. The system combines a guided mobile capture application with a scalable server-side reconstruction pipeline. Its design enables non-expert users to acquire high-quality scans in uncontrolled, real-world environments. <br> By integrating guided capture, segmentation, landmark detection, photogrammetry, and template fitting into a fully automated workflow, the system produces high-quality avatars in approximately 20 minutes. Extensive evaluations show that the resulting avatars are comparable in quality to those created with expert-operated scanning setups, demonstrating the feasibility of accessible, large-scale avatar creation.",
+        "short_description": "An end-to-end smartphone-based pipeline for automated, high-quality full-body avatar reconstruction."
     },
     {
         "slug": "motions",
@@ -32,7 +36,9 @@
         "year": 2025,
         "url": "https://doi.org/10.1145/3756884.3765995",
         "project_page": "",
-        "description": "We refine our initial avatar reconstruction system (<a href=\"../projects/project.html?slug=avatars\">Avatars for the Masses</a>) by addressing motion-induced errors during the scanning process. We observed that even a short two minute smartphone scan, results in significant motion artifacts. As we scan in A-pose, the photogrammetry assumption (i.e., an object is static during image capture) is often violated, as the arms tend to move. Through splitting the image sequence into multiple sub-sequences, called <em>sub-scans</em>, we can reduce these motion artifacts on a photogrammetric level. With these sub-scans, additional silhouette constraints, and a novel texture generation, we improve the reconstruction accuracy noticeably, even in more challenging scanning scenarios.",
-        "short_description": "Motion during scanning causes photogrammetry software to produce artifacts. This project reduces these errors while keeping the scanning process user-friendly."
+        "image": "teaser.webp",
+        "image_caption": "Our sub-scan-based processing strategy effectively reduces noise in point clouds caused by user motion during smartphone capture.",
+        "description": "We extend the A4M avatar reconstruction pipeline (<a href=\"../projects/project.html?slug=avatars\">Avatars for the Masses</a>) by addressing motion-induced errors that arise during sequential smartphone capture. Even short capture sessions can violate the static-scene assumption of photogrammetry, causing artifacts—particularly in articulated regions such as the arms. <br> We introduce a sub-scan-based processing strategy that divides image sequences into shorter temporal segments and integrates silhouette constraints and inverse rendering into the reconstruction pipeline. This approach significantly reduces motion artifacts and improves reconstruction accuracy while preserving a simple, user-friendly capture process, making smartphone-based avatar creation more robust under real-world conditions.",
+        "short_description": "A robust extension of smartphone-based avatar reconstruction that reduces motion artifacts in real-world capture scenarios."
     }
 ]

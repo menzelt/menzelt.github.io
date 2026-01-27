@@ -2,11 +2,11 @@
     {
         "name": "Timo Menzel",
         "profile_picture": "assets/dummy.svg",
-        "role": "Graphics Engineer",
+        "role": "Graphics Engineering & Digital Human Systems",
         "job": "Research Associate & PhD Candidate",
         "company": "TU Dortmund University",
-        "graduation": "expected to graduate Summer 2026",
-        "topics": "3D Scanning & Avatar Personalization",
+        "graduation": "Summer 2026",
+        "topics": "3D Scanning, Avatar Personalization & Real-Time Facial Animation",
         "description": "I am a graphics engineer and researcher specializing in real-time rendering techniques, with a focus on global illumination and physically based rendering. My work aims to bridge the gap between academic research and practical applications in computer graphics.",
         "socials": {
             "linkedin": {
