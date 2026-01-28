@@ -6,6 +6,27 @@ html {
 }
 
 /* ========================
+Font Faces
+======================== */
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter/InterVariable.woff2") format("woff2");
+  font-weight: 100 950;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter/InterVariable-Italic.woff2") format("woff2");
+  font-weight: 100 950;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+/* ========================
 Color System (Light Mode Default)
 ======================== */
 :root {
@@ -73,7 +94,7 @@ Global Styles
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter';
     color: var(--text-main);
     background-color: var(--bg-main);
     line-height: 1.6;
