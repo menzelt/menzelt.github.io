@@ -7,7 +7,7 @@
         "company": "TU Dortmund University",
         "graduation": "Summer 2026",
         "topics": "3D Scanning, Avatar Personalization & Real-Time Facial Animation",
-        "description": "I am a graphics engineer and researcher specializing in real-time rendering techniques, with a focus on global illumination and physically based rendering. My work aims to bridge the gap between academic research and practical applications in computer graphics.",
+        "description": "I am a research associate and PhD candidate at TU Dortmund University, specializing in 3D avatar scanning and personalization using consumer hardware. I develop practical pipelines that transform smartphone captures into realistic full-body avatars and expressive facial animations for VR and real-time applications. I am looking to apply my expertise in graphics engineering and real-time systems to industry, contributing to projects in computer graphics, digital humans, or interactive 3D applications.",
         "socials": {
             "linkedin": {
                 "url": "https://www.linkedin.com/in/timo-menzel-913b721ba",
@@ -16,7 +16,7 @@
             },
             "google_scholar": {
                 "url": "https://scholar.google.com/citations?hl=en&user=MJpnuLIAAAAJ",
-                "icon": "assets/linkedin.svg",
+                "icon": "assets/google_scholar.svg",
                 "label": "Google Scholar"
             }
         }
