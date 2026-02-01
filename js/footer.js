@@ -7,8 +7,8 @@ fetch('../templates/footer.html')
                 document.getElementById("footer-placeholder").innerHTML = footer_template;
 
                 // populate email
-                const u = "timomenzel97";
-                const d = "gmx.de";
+                const u = "contact";
+                const d = "menzelt.dev";
                 const e = `${u}@${d}`;
 
                 const el = document.getElementById("email");
