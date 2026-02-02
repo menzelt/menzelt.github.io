@@ -444,6 +444,10 @@ Footer
         margin-right: 12px;
     }
 
+    a:hover {
+        text-decoration: underline;
+    }
+
 
     .links-inline {
         display: flex;
