@@ -257,7 +257,7 @@ Project Tiles
     gap: 20px;
 }
 
-.project-card {
+/* .project-card {
     display: block;
     background-color: var(--bg-card);
     padding: 22px;
@@ -267,7 +267,7 @@ Project Tiles
     text-decoration: none;
     color: inherit;
     border: 1px solid transparent;
-}
+} */
 
 .project-card h3 {
     color: var(--accent);
@@ -277,12 +277,38 @@ Project Tiles
 .project-card p {
     color: var(--text-muted);
 }
-
+/* 
 .project-card:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-hover);
     border: 1px solid rgba(30, 64, 175, 0.18);
+} */
+.project-card-wrapper {
+    position: relative;
+    display: block;
+    width: 100%;
 }
+
+.project-card {
+    display: block;
+    background-color: var(--bg-card);
+    padding: 22px;
+    border-radius: 14px;
+    min-height: 250px;
+    box-shadow: var(--shadow-soft);
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, border 0.15s ease;
+    position: relative;
+}
+
+.project-card-wrapper:hover .project-card {
+    transform: translateY(-5px);      
+    box-shadow: var(--shadow-hover);
+    border: 1px solid rgba(30, 64, 175, 0.18);
+}
+
 
 /* ========================
 Project Subpages

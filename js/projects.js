@@ -7,6 +7,8 @@ fetch('../data/projects.json')
     data.reverse().sort((a, b) => b.year - a.year);
 
     data.forEach(project => {
+      const card_wrapper = document.createElement('div');
+      card_wrapper.className = 'project-card-wrapper';
       const card = document.createElement('a');
       card.href = `projects/project.html?slug=${project.slug}`;
       card.className = 'project-card';
@@ -17,7 +19,9 @@ fetch('../data/projects.json')
         <p><strong>${project.year}</strong></p>
       `;
 
-      grid.appendChild(card);
+
+      card_wrapper.appendChild(card);
+      grid.appendChild(card_wrapper);
     });
     document.dispatchEvent(new Event("dynamicContentReady"));
   })
