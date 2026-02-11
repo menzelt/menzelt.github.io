@@ -10,7 +10,7 @@
         "description": "I'm a PhD candidate and research assistant at TU Dortmund University working on graphics and geometry processing for digital human reconstruction. I design practical pipelines that transform smartphone captures into realistic full-body avatars and personalized facial animations for real-time and VR applications. <br>I'm interested in industry roles where I can apply my background in graphics engineering, 3D reconstruction, and performance-aware real-time graphics to build interactive and scalable 3D experiences.",
         "socials": {
             "linkedin": {
-                "url": "https://www.linkedin.com/in/timo-menzel-913b721ba",
+                "url": "https://www.linkedin.com/in/timo-menzel",
                 "icon": "assets/linkedin.svg",
                 "label": "LinkedIn"
             },
