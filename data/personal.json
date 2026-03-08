@@ -18,6 +18,11 @@
                 "url": "https://scholar.google.com/citations?hl=en&user=MJpnuLIAAAAJ",
                 "icon": "assets/google_scholar.svg",
                 "label": "Google Scholar"
+            },
+            "github": {
+                "url": "https://github.com/menzelt",
+                "icon": "assets/github.svg",
+                "label": "GitHub"
             }
         }
     }
