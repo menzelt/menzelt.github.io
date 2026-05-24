@@ -5,7 +5,8 @@
         "venue": "ACM Symposium on Virtual Reality Software and Technology",
         "year": 2022,
         "url": "https://doi.org/10.1145/3562939.3565622",
-        "project_page": ""
+        "project_page": "",
+        "note": ""
     },
     {
         "title": "An Evaluation of Other-Avatar Facial Animation Methods for Social VR",
@@ -13,7 +14,8 @@
         "venue": "ACM CHI Conference on Human Factors in Computing Systems (Extended Abstracts)",
         "year": 2023,
         "url": "https://doi.org/10.1145/3544549.3585617",
-        "project_page": ""
+        "project_page": "",
+        "note": ""
     },
     {
         "title": "Coverage of Facial Expressions and Its Effects on Avatar Embodiment, Self-Identification, and Uncanniness",
@@ -21,22 +23,34 @@
         "venue": "IEEE Transactions on Visualization and Computer Graphics 31(5), (Proc. VR)",
         "year": 2025,
         "url": "https://doi.org/10.1109/TVCG.2025.3549887",
-        "project_page": ""
+        "project_page": "",
+        "note": ""
     },
     {
         "title": "Avatars for the Masses: Smartphone-Based Reconstruction of Humans for Virtual Reality",
-        "authors": "Timo Menzel, Erik Wolf, Stephan Wenninger, Niklas Spinczyk, Lena Holderrieth, Carolin Wienrich, Ulrich Schwanecke, Marc Erich Latoschik, Mario Botsch",
+        "authors": "Timo Menzel*, Erik Wolf*, Stephan Wenninger, Niklas Spinczyk, Lena Holderrieth, Carolin Wienrich, Ulrich Schwanecke, Marc Erich Latoschik, Mario Botsch",
         "venue": "Frontiers in Virtual Reality Volume 6",
         "year": 2025,
         "url": "https://doi.org/10.3389/frvir.2025.1583474",
-        "project_page": "https://avatars.cs.tu-dortmund.de/"
+        "project_page": "https://avatars.cs.tu-dortmund.de/",
+        "note": ""
     },
     {
         "title": "Compensating Motion-Induced Errors in Smartphone-Based VR Avatar Reconstruction",
-        "authors": "Friedemann Runte, Timo Menzel, Ulrich Schwanecke, Mario Botsch",
+        "authors": "Friedemann Runte*, Timo Menzel*, Ulrich Schwanecke, Mario Botsch",
         "venue": "ACM Symposium on Virtual Reality Software and Technology",
         "year": 2025,
         "url": "https://doi.org/10.1145/3756884.3765995",
-        "project_page": ""
+        "project_page": "",
+        "note": ""
+    },
+    {
+        "title": "From Body Hulls to Musculoskeletal Models: Personalized Inertial Parameter Estimation",
+        "authors": "Markus Gambietz, Putri Qistina Azam, Philipp Amon, Iris Wechsler, Eva Maria Hille, Timo Menzel, Tabea Ott, Mario Botsch, Matthias Braun, Jörg Miehling, Katie L. McMahon, Anne D. Koelewijn",
+        "venue": "PLOS One",
+        "year": 2026,
+        "url": "",
+        "project_page": "",
+        "note": "to appear"
     }
 ]

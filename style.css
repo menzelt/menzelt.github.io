@@ -426,6 +426,11 @@ Publications
     color: var(--text-main);
 }
 
+.asterisk-hover {
+    cursor: help;              
+    font-weight: bold;
+}
+
 
 /* ========================
 Footer
