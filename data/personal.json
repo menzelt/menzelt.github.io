@@ -3,11 +3,11 @@
         "name": "Timo Menzel",
         "profile_picture": "assets/personal/profile_picture.jpg",
         "role": "Graphics Engineering • Digital Human Systems",
-        "job": "Research Assistant & PhD Candidate",
+        "job": "Graphics Engineer | PhD Candidate",
         "company": "TU Dortmund University",
         "graduation": "Summer 2026",
-        "topics": "3D Scanning, Avatar Personalization & Real-Time Facial Animation",
-        "description": "I'm a PhD candidate and research assistant at TU Dortmund University working on graphics and geometry processing for digital human reconstruction. I design practical pipelines that transform smartphone captures into realistic full-body avatars and personalized facial animations for real-time and VR applications. <br>I'm interested in industry roles where I can apply my background in graphics engineering, 3D reconstruction, and performance-aware real-time graphics to build interactive and scalable 3D experiences.",
+        "topics": "3D Reconstruction & Geometry Processing",
+        "description": "I'm a PhD candidate at TU Dortmund University working on graphics and geometry processing for digital human reconstruction. I design practical pipelines that transform smartphone captures into realistic full-body avatars and personalized facial animations for real-time and VR applications. <br>I'm interested in industry roles where I can apply my background in graphics engineering, 3D reconstruction, and performance-aware real-time graphics to build interactive and scalable 3D experiences.",
         "socials": {
             "linkedin": {
                 "url": "https://www.linkedin.com/in/timo-menzel",
