@@ -25,7 +25,9 @@
         "image": "teaser.webp",
         "image_caption": "Avatars for the Masses (A4M) enables non-expert users to create realistic avatars using just their smartphone.",
         "description": "<strong>Avatars for the Masses (A4M)</strong> is an end-to-end system for reconstructing realistic, VR-ready full-body avatars using commodity smartphones. The system combines a guided mobile capture application with a scalable server-side reconstruction pipeline. Its design enables non-expert users to acquire high-quality scans in uncontrolled, real-world environments. <br> By integrating guided capture, segmentation, landmark detection, photogrammetry, and template fitting into a fully automated workflow, the system produces high-quality avatars in approximately 20 minutes. Extensive evaluations show that the resulting avatars are comparable in quality to those created with expert-operated scanning setups, demonstrating the feasibility of accessible, large-scale avatar creation.",
-        "short_description": "An end-to-end smartphone-based pipeline for automated, high-quality full-body avatar reconstruction."
+        "short_description": "An end-to-end smartphone-based pipeline for automated, high-quality full-body avatar reconstruction.",
+        "video_webm": "video.webm",
+        "video_mp4": "video.mp4"
     },
     {
         "slug": "motions",

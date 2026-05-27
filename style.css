@@ -249,6 +249,38 @@ Sections
 }
 
 /* ========================
+Highlight Video
+======================== */
+
+.highlight-video-container {
+    max-width: 800px;          
+    width: 100%;               
+    margin: 30px auto;         
+    /* Removed aspect-ratio and overflow from here so the caption can breathe */
+}
+
+/* New wrapper style to isolate the video frame properties */
+.highlight-video-container video,
+.highlight-video-container iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;      /* Kept aspect ratio bound to the video */
+    object-fit: cover;         
+    display: block;            
+    border-radius: 12px;       /* Smooth corners on the video */
+    box-shadow: var(--shadow-soft);
+    overflow: hidden;
+}
+
+.highlight-video-container figcaption {
+    margin-top: 12px;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: var(--text-muted);  
+    text-align: center;         
+}
+
+/* ========================
 Project Tiles
 ======================== */
 .project-grid {
@@ -364,6 +396,23 @@ Project Subpages
         flex: 1;
         margin-top: 20px;
     }
+}
+
+.project-video-section {
+    width: 100%;
+    clear: both; /* Ensures it forces itself below any floating elements */
+    margin-top: 20px;
+}
+
+/* Ensures the video matches the same style as your homepage highlight video */
+.project-video-section .highlight-video-container video {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+    box-shadow: var(--shadow-soft);
 }
 
 /* ========================
