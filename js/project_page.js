@@ -48,7 +48,7 @@ fetch('../data/projects.json')
                 <hr style="border: 0; border-top: 1px solid var(--border-light); margin: 40px 0;">
                 <h3 style="margin-bottom: 20px; color: var(--text-main); font-size: 1.4rem;">Project Demonstration</h3>
                 <div class="highlight-video-container" style="margin: 0 auto; max-width: 900px;">
-                    <video controls autoplay loop poster="../assets/${project.video_poster ? `projects/${slug}/${project.video_poster}` : 'dummy.svg'}">
+                    <video controls autoplay loop muted poster="../assets/${project.video_poster ? `projects/${slug}/${project.video_poster}` : 'dummy.svg'}">
                         ${project.video_webm ? `<source src="../assets/projects/${slug}/${project.video_webm}" type="video/webm">` : ''}
                         ${project.video_mp4 ? `<source src="../assets/projects/${slug}/${project.video_mp4}" type="video/mp4">` : ''}
                         <p>Your browser does not support the video tag. You can 
