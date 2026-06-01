@@ -24,7 +24,7 @@ fetch('../data/projects.json')
         <p class="conf_journal">${project.venue}, ${project.year}</p>
         <p class="description">${project.description}</p>
         <div class="publication-buttons">
-              ${project.url ? `<a href="${project.url}" target="_blank" class="btn">Official Publication</a>` : ''}
+              ${project.url ? `<a href="${project.url}" target="_blank" class="btn">Publisher Site</a>` : ''}
               ${project.project_page ? `<a href="${project.project_page}" target="_blank" class="btn">Project Page</a>` : ''}
         </div>
         `;
