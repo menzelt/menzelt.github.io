@@ -21,7 +21,7 @@ fetch('../data/publications.json')
           const card = document.createElement('div');
           card.classList.add('publication-card');
 
-          // process the authors array to bold the my name
+          // process the authors array to bold my name
           const targetName = "Timo Menzel";
           if (pub.authors.includes(targetName + "*")) {
               // if the name is followed by an asterisk, we want to keep it in the processed string

@@ -29,7 +29,7 @@
     {
         "title": "Avatars for the Masses: Smartphone-Based Reconstruction of Humans for Virtual Reality",
         "authors": "Timo Menzel*, Erik Wolf*, Stephan Wenninger, Niklas Spinczyk, Lena Holderrieth, Carolin Wienrich, Ulrich Schwanecke, Marc Erich Latoschik, Mario Botsch",
-        "venue": "Frontiers in Virtual Reality Volume 6",
+        "venue": "Frontiers in Virtual Reality 6",
         "year": 2025,
         "url": "https://doi.org/10.3389/frvir.2025.1583474",
         "project_page": "https://avatars.cs.tu-dortmund.de/",
@@ -47,7 +47,7 @@
     {
         "title": "From Body Hulls to Musculoskeletal Models: Personalized Inertial Parameter Estimation",
         "authors": "Markus Gambietz, Putri Qistina Azam, Philipp Amon, Iris Wechsler, Eva Maria Hille, Timo Menzel, Tabea Ott, Mario Botsch, Matthias Braun, Jörg Miehling, Katie L. McMahon, Anne D. Koelewijn",
-        "venue": "PLOS One",
+        "venue": "PLOS One 21(6)",
         "year": 2026,
         "url": "https://doi.org/10.1371/journal.pone.0349886",
         "project_page": "https://gambimar.github.io/sipp/",
@@ -56,10 +56,10 @@
     {
         "title": "Interaction- and Asymmetry-Aware Facial Blendshape Analysis for Objective Quantification of Parkinsonian Hypomimia",
         "authors": "Berkan Koyak, Timo Menzel, Martin Rodemann, Guido Hennes, Annika Spottke, Eva Saxler, Janis Bedarf, Jennifer Faber, Michael Sommerauer, Patrick Weydt, Martin Reuter, Mario Botsch, Ullrich Wuellner, Ahmad Aziz",
-        "venue": "npj Parkinson's Disease",
+        "venue": "npj Parkinson's Disease 12(1)",
         "year": 2026,
-        "url": "",
+        "url": "https://doi.org/10.1038/s41531-026-01579-2",
         "project_page": "",
-        "note": "to appear"
+        "note": ""
     }
 ]
